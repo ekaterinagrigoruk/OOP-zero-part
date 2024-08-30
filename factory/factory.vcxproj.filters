@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{3ee96305-0586-4bee-8eeb-032635cad8f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory">
+      <UniqueIdentifier>{561c18ff-06d5-4a50-bd97-80347d56fc73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shapes">
+      <UniqueIdentifier>{a0b364ad-69a7-4a2c-a9f2-a6c68fd7b877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{db883a29-bb6f-4013-bad9-6f77faebd6ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser">
+      <UniqueIdentifier>{d9170ef2-e49a-45c9-b264-382518acb921}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="class.c">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="shape.c">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="factory.c">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="point.c">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="circle.c">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="line.c">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="rect.c">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="parser.c">
+      <Filter>Parser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="class.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="shape.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="factory.h">
+      <Filter>Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="point.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="circle.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="line.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="rect.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="parser.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

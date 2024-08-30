@@ -1,0 +1,14 @@
+rect 1 2 3 4
+point 1 2
+rect 1 2 3 4
+line 10 10 30 20
+circle 10 10 5
+point 1 2
+line 10 10 30 20
+circle 10 10 5
+point 1ab 2
+line a10 10 30 20
+point 1 2b
+point 1
+circle 10 10 5 3
+line 10 10 30 20 3
